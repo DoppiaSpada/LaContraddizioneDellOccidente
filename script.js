@@ -1,4 +1,4 @@
-window.onload = function upload(){
+function upload(){
     fetch('https://github.com/DoppiaSpada/Krino_Hub/tree/main/contents')
     .then(response => response.json())
     .then(json => console.log(json))
