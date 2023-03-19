@@ -3,7 +3,7 @@
 //Non funzionante perchè file ancora fuori dal server. Provvedere!
 
 window.onload = function(){
-    fetch('/main/contents/file.txt')
+    fetch('/contents/file.txt')
     .then(response => response.json())
     .then(json => console.log(json))
     .catch(err => console.log("Request failed", err));
