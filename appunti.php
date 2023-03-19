@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body onload="upload()">
+<body>
     <header>
         <div class="back-header">
             <img src="https://st3.depositphotos.com/26065846/36407/v/1600/depositphotos_364072838-stock-illustration-seamless-pattern-graphic-vector-background.jpg" alt="BACK_CANVAS">
@@ -28,6 +28,10 @@
         </div>
     </header>
     <div class="middle_box">
+        <script type="text/javascript">
+            var my_dir = <?php echo glob("*.txt");?>;
+            //upload(my_dir);
+          </script>
         <h2>APPUNTI</h2>
         <br>
         <p>Qua sotto i nostri appunti</p>
