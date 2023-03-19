@@ -1,3 +1,4 @@
+<html>
 <head>
     <title>Krino_hub</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -57,3 +58,4 @@
         </div>
     </footer>
 </body>
+</html>
