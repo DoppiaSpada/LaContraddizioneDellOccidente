@@ -4,7 +4,7 @@
 
 window.onload = function(){
     fetch('contents/file.txt')
-    .then(response => response.json())
-    .then(json => console.log(json))
+    .then(response => response.text())
+    .then(text => console.log(text))
     .catch(err => console.log("Request failed", err));
 }
